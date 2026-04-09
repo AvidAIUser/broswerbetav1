@@ -1,0 +1,20 @@
+{
+  "name": "ScenarioView",
+  "version": "1.0.0",
+  "description": "A custom desktop web browser built with Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --verbose",
+    "build": "electron-builder"
+  },
+  "author": "MyBrowser Team",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^latest",
+    "electron-builder": "^latest"
+  },
+  "dependencies": {
+    "electron-store": "^8.0.0"
+  }
+}
